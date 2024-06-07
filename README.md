@@ -13,5 +13,5 @@
 
 ## Visuals
 
-![Imgur]()
-![Imgur]()
+![Imgur](https://tinyurl.com/yc76j98x)
+![Imgur](https://tinyurl.com/yhxnccr2)
