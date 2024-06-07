@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Travel</title>
+      <!-- Police -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet" />
+      <!-- CSS -->
+      <link rel="stylesheet" href="style/style.css" />
+      <!-- Font Awesome -->
+      <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+         crossorigin="anonymous"
+      />
+
+      <script defer src="./js/villes.js"></script>
+      <script defer src="./js/script.js"></script>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul>
+               <li>
+                  <a href="#">Lorem</a>
+               </li>
+               <li>
+                  <a href="#">Lorem</a>
+               </li>
+               <li>
+                  <a href="#">Lorem</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+
+      <main>
+         <div class="content">
+            <div class="selectCards">
+               <select class="classic" name="selectCards" id="selectCards">
+                  <option value="">Tous les continents</option>
+                  <option value="Afrique">Afrique</option>
+                  <option value="Amérique du Nord">Amérique du Nord</option>
+                  <option value="Amérique du Sud">Amérique du Sud</option>
+                  <option value="Antarctique">Antarctique</option>
+                  <option value="Asie">Asie</option>
+                  <option value="Europe">Europe</option>
+                  <option value="Océanie">Océanie</option>
+               </select>
+            </div>
+            <div id="cards" class="cards"></div>
+
+            <div id="modal" class="hidden"></div>
+         </div>
+      </main>
+
+      <footer>
+         <div class="row">
+            <div class="col">
+               <div class="title">Destintations populaires</div>
+               <div class="infos">
+                  <ul>
+                     <li><a href="#">Londres</a></li>
+                     <li><a href="#">New York</a></li>
+                     <li><a href="#">Québec</a></li>
+                     <li><a href="#">Paris</a></li>
+                     <li><a href="#">Los Angeles</a></li>
+                     <li><a href="#">Rome</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col">
+               <div class="title">Que recherchez-vous ?</div>
+               <div class="infos">
+                  <ul>
+                     <li><a href="#">Vols</a></li>
+                     <li><a href="#">Hôtels</a></li>
+                     <li><a href="#">Location de voiture</a></li>
+                     <li><a href="#">Circuits sur mesure</a></li>
+                     <li><a href="#">Tour du monde</a></li>
+                     <li><a href="#">Promotions</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col">
+               <div class="title">À propos de nous</div>
+               <div class="infos">
+                  <ul>
+                     <li><a href="#">L'agence</a></li>
+                     <li><a href="#">Nos partenaires</a></li>
+                     <li><a href="#">Nos Valeurs</a></li>
+                     <li><a href="#">Nos brochures</a></li>
+                     <li><a href="#">Blog</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col">
+               <div class="title">Contact</div>
+               <div class="infos">
+                  <ul>
+                     <li><a href="#">Questions fréquentes</a></li>
+                     <li><a href="#">Annulation</a></li>
+                     <li><a href="#">Assurance voyage</a></li>
+                     <li><a href="#">Conditions de voyage</a></li>
+                     <li><a href="#">Contact</a></li>
+                     <li><a href="#">Jobs</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="socials">
+            <div class="social">
+               <a href="#" target="_blank">
+                  <img src="./images/social/facebook.png" alt="Facebook" />
+               </a>
+            </div>
+            <div class="social">
+               <a href="#" target="_blank">
+                  <img src="./images/social/instagram.png" alt="Instagram" />
+               </a>
+            </div>
+            <div class="social">
+               <a href="#" target="_blank">
+                  <img src="./images/social/twitter.png" alt="X" />
+               </a>
+            </div>
+            <div class="social">
+               <a href="#" target="_blank">
+                  <img src="./images/social/tik-tok.png" alt="Tik-Tok" />
+               </a>
+            </div>
+            <div class="social">
+               <a href="#" target="_blank">
+                  <img src="./images/social/linkedin.png" alt="LinkedIn" />
+               </a>
+            </div>
+         </div>
+         <div class="logo">
+            <div class="logo-title">Travel</div>
+            <p class="baseline">Living the Blue Life !</p>
+         </div>
+         <div class="legal">
+            <ul>
+               <li><a href="#">Mentions Légales</a></li>
+               <li><a href="#">CGV</a></li>
+               <li><a href="#">Confidentialité</a></li>
+               <li><a href="#">Cookies</a></li>
+            </ul>
+         </div>
+         <div class="copyrights">
+            <p>
+               © <span id="year"></span> - <a href="#">Travel</a> | Tous droits réservés • Made with
+               <i class="fas fa-heart"></i> by
+               <a href="#" target="_blank">Tamara Vandebroeck</a>
+            </p>
+         </div>
+      </footer>
+   </body>
+</html>
