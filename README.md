@@ -1,6 +1,8 @@
 # Travel
 
-...
+Using a table of data in JavaScript, this project displays information for each city and filters it by continent to test the filter function in JavaScript. 
+
+To test the use of an API, it also retrieves weather data.
 
 
 ## Technologies Used
