@@ -1,0 +1,38 @@
+const CITIES = [
+   { name: 'Pékin', image: './images/beijing.png', country: 'Chine', continent: 'Asie', nbResidents: 21_893_095 },
+   {
+      name: 'Bruxelles',
+      image: './images/brussels.jpg',
+      country: 'Belgique',
+      continent: 'Europe',
+      nbResidents: 188_737,
+   },
+   {
+      name: 'Buenos Aires',
+      image: './images/buenosaires.jpeg',
+      country: 'Argentine',
+      continent: 'Amérique du Sud',
+      nbResidents: 3_120_612,
+   },
+   { name: 'Lisbonne', image: './images/lisboa.jpg', country: 'Portugal', continent: 'Europe', nbResidents: null },
+   { name: 'Londres', image: './images/london.jpg', country: 'Angleterre', continent: 'Europe', nbResidents: null },
+   { name: 'Madrid', image: './images/madrid.jpg', country: 'Espagne', continent: 'Europe', nbResidents: 3_332_035 },
+   {
+      name: 'Ottawa',
+      image: './images/ottawa.jpg',
+      country: 'Canada',
+      continent: 'Amérique du Nord',
+      nbResidents: 1_017_449,
+   },
+   { name: 'Paris', image: './images/paris.jpg', country: 'France', continent: 'Europe', nbResidents: 2_133_111 },
+   { name: 'Rome', image: './images/rome.jpg', country: 'Italie', continent: 'Europe', nbResidents: null },
+   { name: 'Tokyo', image: './images/tokyo.jpg', country: 'Japon', continent: 'Asie', nbResidents: 14_264_798 },
+   {
+      name: 'Washington',
+      image: './images/washington.jpg',
+      country: 'État-Unis',
+      continent: 'Amérique du Nord',
+      nbResidents: 689_545,
+   },
+   { name: 'Zagreb', image: './images/zagreb.jpg', country: 'Croatie', continent: 'Europe', nbResidents: null },
+];
