@@ -95,7 +95,7 @@ function createCard(city) {
 
       try {
          const res = await axios.get(
-            `https://api.openweathermap.org/data/2.5/weather?q=${CITY}&APPID=79cee8d6443bb15189cc154089df595b&units=metric&lang=fr`
+            `https://api.openweathermap.org/data/2.5/weather?q=${CITY}&APPID=*******************&units=metric&lang=fr`
          );
 
          console.log(res.data);
